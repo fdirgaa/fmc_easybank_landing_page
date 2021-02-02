@@ -65,11 +65,11 @@
       }
 
       @include breakpoint-up(large) {
-        width: 130%;
-        height: 126%;
+        width: 120%;
+        height: 120%;
         background-image: url("/images/image-mockups.png");
         background-size: 95%;
-        background-position: center 100%;
+        background-position: center 105%;
         left: 22%;
       }
     }
@@ -82,23 +82,6 @@
       flex: 2;
       order: 1;
       text-align: left;
-    }
-
-    h1 {
-      font-weight: 300;
-      font-size: 2.3125rem;
-      line-height: 1.15;
-      color: $darkBlue;
-      margin-bottom: 1.5rem;
-
-      @include breakpoint-up(large) {
-        font-size: $font-xlg;
-      }
-    }
-
-    p {
-      line-height: 1.5;
-      margin-bottom: 2.25rem;
     }
   }
 }
